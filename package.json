@@ -1,0 +1,34 @@
+{
+  "name": "danvsworld",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@netlify/plugin-lighthouse": "^5.0.0",
+    "@netlify/plugin-nextjs": "^4.41.1",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.23.0",
+    "gray-matter": "^4.0.3",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-raw": "^7.0.0",
+    "remark": "^15.0.1",
+    "remark-html": "^15.0.1",
+    "sass": "^1.69.4"
+  },
+  "devDependencies": {
+    "@types/gtag.js": "0.0.7",
+    "@types/node": "^16.4.0",
+    "@types/react": "^18.2.30",
+    "@types/react-syntax-highlighter": "^15.5.9",
+    "prettier": "2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
